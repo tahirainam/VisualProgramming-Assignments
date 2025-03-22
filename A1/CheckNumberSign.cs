@@ -9,9 +9,9 @@ namespace VisualProgramming_Assignments.A1
             int num;
             Console.WriteLine("Check Number Sign");
             Console.Write("Enter a Number: ");
-            num = Console.Read();
+            num = int.Parse(Console.ReadLine());
 
-            if(num == 0)
+            if (num == 0)
             {
                 Console.WriteLine("A Zero");
             }

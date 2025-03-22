@@ -8,17 +8,17 @@ namespace VisualProgramming_Assignments.A1
 {
     class FactorialCalculator
     {
-        static void Main(string[] args)
-        {
+        static void Main()
+        { 
             int num;
-            int fact=0;
+            int fact=1;
             Console.WriteLine("Factorial Calculator");
             Console.Write("Enter a Number: ");
-            num = Console.Read();
+            num = int.Parse(Console.ReadLine());
 
-            for(int i=num; i>1; i--)
+            for (int i=num; i>1; i--)
             {
-                fact *= i;
+                fact = fact * i;
             }
 
             Console.WriteLine($"Factorial of {num} is {fact}");
