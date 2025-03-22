@@ -4,7 +4,7 @@ namespace VisualProgramming_Assignments.A1
 {
     class CheckNumberSign
     {
-        static void Main (string[] args)
+        static void Main ()
         {
             int num;
             Console.WriteLine("Check Number Sign");
